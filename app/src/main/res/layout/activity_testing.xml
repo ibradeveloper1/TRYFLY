@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <Button
+        android:id="@+id/buttonturnright"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="false"
+        android:layout_marginStart="532dp"
+        android:layout_marginTop="100dp"
+        android:layout_marginEnd="483dp"
+        android:layout_marginBottom="324dp"
+        android:text="@string/t_rightbtn_name" />
+
+    <Button
+        android:id="@+id/buttonForward"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="false"
+        android:layout_marginStart="432dp"
+        android:layout_marginTop="50dp"
+        android:layout_marginEnd="483dp"
+        android:layout_marginBottom="324dp"
+        android:text="@string/forwardbtn_name" />
+
+    <Button
+        android:id="@+id/buttonturnleft"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="false"
+        android:layout_marginStart="332dp"
+        android:layout_marginTop="100dp"
+        android:layout_marginEnd="483dp"
+        android:layout_marginBottom="324dp"
+        android:text="@string/t_leftbtn_name" />
+
+    <Button
+        android:id="@+id/buttonBack"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="false"
+        android:layout_marginStart="432dp"
+        android:layout_marginTop="150dp"
+        android:layout_marginEnd="483dp"
+        android:layout_marginBottom="224dp"
+        android:text="@string/backwardbtn_name" />
+
+    <Button
+        android:id="@+id/buttonRight"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="false"
+        android:layout_marginStart="212dp"
+        android:layout_marginTop="100dp"
+        android:layout_marginEnd="483dp"
+        android:layout_marginBottom="324dp"
+        android:text="@string/rightbtn_name" />
+
+    <Button
+        android:id="@+id/buttonUp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="false"
+        android:layout_marginStart="132dp"
+        android:layout_marginTop="50dp"
+        android:layout_marginEnd="483dp"
+        android:layout_marginBottom="324dp"
+        android:text="@string/upbtn_name" />
+
+    <Button
+        android:id="@+id/buttonLeft"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="false"
+        android:layout_marginStart="32dp"
+        android:layout_marginTop="100dp"
+        android:layout_marginEnd="483dp"
+        android:layout_marginBottom="324dp"
+        android:text="@string/leftbtn_name" />
+
+    <Button
+        android:id="@+id/buttonDown"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="false"
+        android:layout_marginStart="132dp"
+        android:layout_marginTop="150dp"
+        android:layout_marginEnd="483dp"
+        android:layout_marginBottom="224dp"
+        android:text="@string/downbtn_name" />
+
+    <Button
+        android:id="@+id/buttonConnect"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="false"
+        android:layout_marginStart="552dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="483dp"
+        android:layout_marginBottom="324dp"
+        android:text="@string/conn" />
+
+    <Button
+        android:id="@+id/buttonLand"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="false"
+        android:layout_marginStart="552dp"
+        android:layout_marginTop="220dp"
+        android:layout_marginEnd="483dp"
+        android:layout_marginBottom="324dp"
+        android:text="@string/land" />
+
+    <Button
+        android:id="@+id/buttontakeoff"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="false"
+        android:layout_marginStart="32dp"
+        android:layout_marginTop="220dp"
+        android:layout_marginEnd="483dp"
+        android:layout_marginBottom="324dp"
+        android:text="@string/takeoff"
+        android:onClick="takeingoff"/>
+
+</RelativeLayout>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3FC2F5</color>
+    <color name="colorPrimaryDark">#3FC2F5</color>
+    <color name="colorAccent">#D81B60</color>
+
+    <color name="actionbar">#3FC2F5</color>
+    <color name="logincolor">#1F46FF</color>
+    <color name="signupcolor">#DF3800</color>
+    <color name="splash_title">#333333</color>
+</resources>

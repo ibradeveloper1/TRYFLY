@@ -1,0 +1,94 @@
+<resources>
+    <string name="app_name">TRYFLY</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <!--Home Page-->
+    <string name="maintitle">Welcom To TRI-FLY</string>
+    <string name="smalltitle">Creators</string>
+    <string name="name1">MIHNAJ</string>
+    <string name="name2">IBRAHIM</string>
+    <string name="name3">UMAR</string>
+
+    <!--Button string names for controller-->
+    <string name="conn">CONNECT</string>
+    <string name="takeoff">TAKE OFF</string>
+    <string name="land">LAND</string>
+    <string name="upbtn_name">UP</string>
+    <string name="downbtn_name">DOWN</string>
+    <string name="leftbtn_name">LEFT</string>
+    <string name="rightbtn_name">RIGHT</string>
+    <string name="forwardbtn_name">FORWARD</string>
+    <string name="backwardbtn_name">BACKWARD</string>
+    <string name="t_leftbtn_name">T-LEFT</string>
+    <string name="t_rightbtn_name">T-RIGHT</string>
+    <string name="speedtext">SPEED: 4KM/HR</string>
+
+    <!--contact form-->
+    <string name="title">Send us a message!</string>
+    <string name="title2">Type message in this box!</string>
+    <string name="name_hint">Full Name</string>
+    <string name="email_hint">Email</string>
+    <string name="subject_hint">Subject</string>
+    <string name="message_hint">Type message here</string>
+    <string name="sendbtn">Send</string>
+    <string name="phone_num">Call: (123)-456-7890</string>
+
+    <!--Login Activity-->
+
+    <string name="username">Username</string>
+    <string name="password">Password</string>
+    <string name="login">Login</string>
+    <string name="signup">Sign up</string>
+    <string name="not_registered">Not Registered?</string>
+    <string name="register_here">Register</string>
+    <string name="confirm_password">Confirm Password</string>
+    <string name="already_registered">Already Registered?</string>
+
+    <!--splash activity-->
+    <string name="companyname">TRI-FLY</string>
+
+    <!-- Strings related to Settings -->
+    <string-array name="Commands">
+        <item>command</item>
+        <item>speed?</item>
+        <item>battery?</item>
+        <item>time?</item>
+        <item>takeoff</item>
+        <item>land</item>
+        <item>cw 90</item>
+        <item>cw 180</item>
+        <item>cw 360</item>
+        <item>ccw 90</item>
+        <item>ccw 180</item>
+        <item>ccw 360</item>
+        <item>forward 40</item>
+        <item>forward 80</item>
+        <item>back 40</item>
+        <item>back 80</item>
+        <item>left 40</item>
+        <item>left 80</item>
+        <item>right 40</item>
+        <item>right 80</item>
+        <item>up 40</item>
+        <item>up 80</item>
+        <item>down 40</item>
+        <item>down 80</item>
+        <item>speed 25</item>
+        <item>speed 50</item>
+        <item>speed 100</item>
+        <item>flip l</item>
+        <item>flip r</item>
+        <item>flip f</item>
+        <item>flip b</item>
+        <item>flip bl</item>
+        <item>flip rb</item>
+        <item>flip fl</item>
+        <item>flip fr</item>
+    </string-array>
+    <string name="title_activity_maps">Map</string>
+
+    <!--access token for map-->
+    <string name="access_token">pk.eyJ1IjoidW1tZWlyIiwiYSI6ImNqeGZjMmgxNjAzdzMzbm84NmhsNXVya3oifQ.qNpOr7ky3E-uCwSx5CFjsw</string>
+    <string name="start_navigation">Start Navigation</string>
+</resources>
